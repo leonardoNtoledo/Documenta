@@ -12,6 +12,9 @@ target 'SwiftBaseProject' do
   pod 'Moya/RxSwift', '~> 11.0.2'
   # In app notification and other banners
   pod 'Whisper', '~> 6.0.2'
+  pod 'AeroGearHttp'
+  pod 'AeroGearOAuth2'
+  pod 'OAuthSwiftAlamofire'
 
   # Database management
   pod 'RxRealm', '~> 0.7.5'

@@ -13,8 +13,9 @@ import UIKit
 class LoginViewController: UIViewController {
 
   @IBOutlet weak var userNameField: UITextField!
+    var userName:String?
   @IBOutlet weak var passwordField: UITextField!
-  @IBOutlet weak var loginBtn: UIButton!
+    var passwordId:String?
   @IBOutlet weak var errorLabel: UILabel!
 
   var viewModel: LoginViewModel!
@@ -22,39 +23,27 @@ class LoginViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    setup()
   }
-
-  func setup() {
-    userNameField.text = viewModel.userName.value
-    userNameField.rx
-      .text
-      .bind(to: viewModel.userName)
-      .disposed(by: disposeBag)
-
-    passwordField.rx
-      .text
-      .bind(to: viewModel.password)
-      .disposed(by: disposeBag)
-
-    viewModel.canSubmit.asObservable().subscribe(
-      onNext: { [unowned self] canSubmit in
-        self.loginBtn.isEnabled = canSubmit
-      }
-    ).disposed(by: disposeBag)
-
-    viewModel.error.asObservable().subscribe(
-      onNext: { [weak self] message in
-        self?.errorLabel.isHidden = message == nil
-        self?.errorLabel.text = message
-      }
-    ).disposed(by: disposeBag)
-
-    loginBtn.addTarget(self, action: #selector(loginTapped), for: .touchUpInside)
-  }
-
-  @objc func loginTapped() {
-    viewModel.login()
-  }
-
+    func gotoDash() {
+        AppRouter.sharedInstance.navigate(to: HomeRoute.dashboard, with: .reset)
+    }
+    @IBAction func gotoDashboard(_ sender: UIButton) {
+        
+        //al pulsar el boton de login, se guarda el usuario y se almacena en la memoria del telefono para luego usarlo en el post
+        userName = userNameField.text
+        UserDefaults.standard.setValue( userName, forKey: "userNameId")
+        //para ver en consola.
+        let printUsername = UserDefaults.standard.value(forKey: "userNameId")
+        print(printUsername)
+      
+        //al pulsar el boton de login, se guarda el password y se almacena en la memoria del telefono para luego usarlo en el post
+        passwordId = passwordField.text
+        UserDefaults.standard.setValue( passwordId, forKey: "passwordId")
+         //para ver en consola.
+        let password = UserDefaults.standard.value(forKey: "passwordId")
+        print(password)
+        getLogin()
+        gotoDash();
+   
+}
 }

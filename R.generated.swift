@@ -41,8 +41,11 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.reuseIdentifier` struct is generated, and contains static references to 0 reuse identifiers.
+  /// This `R.reuseIdentifier` struct is generated, and contains static references to 1 reuse identifiers.
   struct reuseIdentifier {
+    /// Reuse identifier `Cell`.
+    static let cell: Rswift.ReuseIdentifier<DashboardViewModel> = Rswift.ReuseIdentifier(identifier: "Cell")
+    
     fileprivate init() {}
   }
   
@@ -51,14 +54,21 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.storyboard` struct is generated, and contains static references to 3 storyboards.
+  /// This `R.storyboard` struct is generated, and contains static references to 4 storyboards.
   struct storyboard {
+    /// Storyboard `Catastrar`.
+    static let catastrar = _R.storyboard.catastrar()
     /// Storyboard `Dashboard`.
     static let dashboard = _R.storyboard.dashboard()
     /// Storyboard `LaunchScreen`.
     static let launchScreen = _R.storyboard.launchScreen()
     /// Storyboard `Main`.
     static let main = _R.storyboard.main()
+    
+    /// `UIStoryboard(name: "Catastrar", bundle: ...)`
+    static func catastrar(_: Void = ()) -> UIKit.UIStoryboard {
+      return UIKit.UIStoryboard(resource: R.storyboard.catastrar)
+    }
     
     /// `UIStoryboard(name: "Dashboard", bundle: ...)`
     static func dashboard(_: Void = ()) -> UIKit.UIStoryboard {
@@ -102,6 +112,15 @@ struct _R {
   }
   
   struct storyboard {
+    struct catastrar: Rswift.StoryboardResourceWithInitialControllerType {
+      typealias InitialController = SwiftBaseProject.CatastrarViewController
+      
+      let bundle = R.hostingBundle
+      let name = "Catastrar"
+      
+      fileprivate init() {}
+    }
+    
     struct dashboard: Rswift.StoryboardResourceWithInitialControllerType {
       typealias InitialController = DashaboardViewController
       

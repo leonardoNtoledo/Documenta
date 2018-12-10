@@ -16,3 +16,4 @@ extension TargetType {
   var sampleData: Data { return Data() }
 
 }
+

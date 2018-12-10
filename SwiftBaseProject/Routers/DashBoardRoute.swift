@@ -18,7 +18,7 @@ enum HomeRoute: Route {
       guard let dashboard = R.storyboard.dashboard.instantiateInitialViewController() else {
         return UIViewController()
       }
-      dashboard.viewModel = DashboardViewModel()
+      dashboard.isViewLoaded
       return dashboard
     }
   }

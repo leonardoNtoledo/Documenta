@@ -9,16 +9,12 @@
 import Foundation
 import RxCocoa
 import RxSwift
-import UIKit
 
-class DashboardViewModel : UITableViewCell {
+class CatastrarViewModel {
     
-    @IBOutlet weak var codigo: UILabel!
-    @IBOutlet weak var periodo: UILabel!
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        
-    }
 
+    
 }
+
+

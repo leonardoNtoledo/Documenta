@@ -10,15 +10,15 @@ import Foundation
 import UIKit
 
 enum LoginRoute: Route {
-  case login(username: String?)
+case login
 
   var screen: UIViewController {
     switch self {
-    case .login(let username):
+    case .login :
       guard let login = R.storyboard.main.instantiateInitialViewController() else {
         return UIViewController()
       }
-      login.viewModel = LoginViewModel(with: username)
+      login.viewModel = LoginViewModel()
       return login
     }
   }

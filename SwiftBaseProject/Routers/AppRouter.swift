@@ -13,8 +13,12 @@ class AppRouter: BaseRouter {
   static let sharedInstance = AppRouter()
 
   init() {
-    let user = UserController.sharedInstance.currentUser
-    let initialRoute: Route = user != nil ? HomeRoute.dashboard : LoginRoute.login(username: AppDelegate.getUserNameFromDefaults())
+ //   let user = UserController.sharedInstance.currentUser
+    let initialRoute: Route = CatastrarRoute.catastrar
+    //: loginRoute.login
+//        user != nil ? HomeRoute.dashboard
+        
+//        : LoginRoute.login(username: AppDelegate.getUserNameFromDefaults())
     super.init(with: initialRoute)
   }
 

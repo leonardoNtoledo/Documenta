@@ -7,16 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2325EE1F2149742A009FE1D2 /* ListadoComprobantesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2325EE1E2149742A009FE1D2 /* ListadoComprobantesService.swift */; };
+		232928F6214ECC1300AA7249 /* requestComprobantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232928F5214ECC1300AA7249 /* requestComprobantes.swift */; };
+		232928F8214F021F00AA7249 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232928F7214F021F00AA7249 /* DashboardViewModel.swift */; };
+		232AA15C21346F55007F93AA /* CatastrarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232AA15B21346F55007F93AA /* CatastrarViewController.swift */; };
+		232AA15E21346FD0007F93AA /* CatastrarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232AA15D21346FD0007F93AA /* CatastrarViewModel.swift */; };
+		232AA1602134840C007F93AA /* Catastrar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232AA15F2134840C007F93AA /* Catastrar.swift */; };
+		232AA1622134847D007F93AA /* CatastrarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232AA1612134847D007F93AA /* CatastrarController.swift */; };
+		232AA16421371A9B007F93AA /* CatastrarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232AA16321371A9B007F93AA /* CatastrarService.swift */; };
+		232AA16921372563007F93AA /* SaveCatastro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 232AA16721372563007F93AA /* SaveCatastro.xcdatamodeld */; };
+		232AA18C213882BD007F93AA /* catastrarDataAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232AA18B213882BD007F93AA /* catastrarDataAccess.swift */; };
+		2356745C212E0B760007AF13 /* Catastrar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2356745B212E0B760007AF13 /* Catastrar.storyboard */; };
+		238A6C3A2163F28D00037C68 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 238A6C392163F28D00037C68 /* Dashboard.storyboard */; };
+		239A77A8213DC35900521069 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239A77A7213DC35900521069 /* LoginService.swift */; };
+		239A77AA213F328C00521069 /* autorizacionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239A77A9213F328C00521069 /* autorizacionService.swift */; };
+		23ABA975212F48BC00807246 /* CatastrarRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABA974212F48BC00807246 /* CatastrarRoute.swift */; };
 		2BB2A53F2AC6C5FDDAE1E62C /* Pods_SwiftBaseProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B94875E31222427017C279 /* Pods_SwiftBaseProjectUITests.framework */; };
 		3F39E04567304153A0E9CF3C /* Pods_SwiftBaseProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2AEC1BFCBECE7611C3C144A /* Pods_SwiftBaseProjectTests.framework */; };
 		4D343B9BD0A2D92B54B9476F /* Pods_SwiftBaseProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E707058E741C48522D77D18 /* Pods_SwiftBaseProject.framework */; };
 		97139D09207654FB007B1C65 /* NibInstantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97139D08207654FB007B1C65 /* NibInstantiable.swift */; };
 		97139D0B20765A0D007B1C65 /* UIView+ConstraintsHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97139D0A20765A0D007B1C65 /* UIView+ConstraintsHelpers.swift */; };
-		97B83C5C2056E73C0096B10A /* TargetType+BaseProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B83C5B2056E73C0096B10A /* TargetType+BaseProject.swift */; };
+		97B83C5C2056E73C0096B10A /* TargetType+DocProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B83C5B2056E73C0096B10A /* TargetType+DocProject.swift */; };
 		97B83C602056EA8D0096B10A /* BaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B83C5F2056EA8D0096B10A /* BaseManager.swift */; };
 		97B83C632056EC3B0096B10A /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B83C622056EC3B0096B10A /* AppRouter.swift */; };
 		97B83C652056F9F60096B10A /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B83C642056F9F60096B10A /* LoginViewModel.swift */; };
-		97B83C672056FDBE0096B10A /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97B83C662056FDBE0096B10A /* Dashboard.storyboard */; };
 		97B83C692056FDE20096B10A /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B83C682056FDE20096B10A /* DashboardViewController.swift */; };
 		97C6142D2056D7A3001FEE20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C6142C2056D7A3001FEE20 /* AppDelegate.swift */; };
 		97C6142F2056D7A3001FEE20 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C6142E2056D7A3001FEE20 /* LoginViewController.swift */; };
@@ -32,9 +46,7 @@
 		97E5397C20751D2800D95BDA /* DashBoardRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E5397B20751D2800D95BDA /* DashBoardRoute.swift */; };
 		97E7D318205AA993009BA321 /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E7D317205AA993009BA321 /* UserController.swift */; };
 		97E7D31A205AAA57009BA321 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E7D319205AAA57009BA321 /* User.swift */; };
-		97E7D31C205AABE9009BA321 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E7D31B205AABE9009BA321 /* UserService.swift */; };
 		97E7D31E205AAE2E009BA321 /* UserDataAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E7D31D205AAE2E009BA321 /* UserDataAccess.swift */; };
-		97EBDECF205AD5C10085A836 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EBDECE205AD5C10085A836 /* DashboardViewModel.swift */; };
 		97EBDED4205ADE360085A836 /* BaseDataAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EBDED3205ADE360085A836 /* BaseDataAccess.swift */; };
 /* End PBXBuildFile section */
 
@@ -56,17 +68,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07B24E12B9212AB7AEDF9903 /* Pods-SwiftBaseProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBaseProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBaseProjectTests/Pods-SwiftBaseProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		2325EE1E2149742A009FE1D2 /* ListadoComprobantesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListadoComprobantesService.swift; sourceTree = "<group>"; };
+		232928F5214ECC1300AA7249 /* requestComprobantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = requestComprobantes.swift; sourceTree = "<group>"; };
+		232928F7214F021F00AA7249 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		232AA15B21346F55007F93AA /* CatastrarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatastrarViewController.swift; sourceTree = "<group>"; };
+		232AA15D21346FD0007F93AA /* CatastrarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatastrarViewModel.swift; sourceTree = "<group>"; };
+		232AA15F2134840C007F93AA /* Catastrar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catastrar.swift; sourceTree = "<group>"; };
+		232AA1612134847D007F93AA /* CatastrarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatastrarController.swift; sourceTree = "<group>"; };
+		232AA16321371A9B007F93AA /* CatastrarService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatastrarService.swift; sourceTree = "<group>"; };
+		232AA16821372563007F93AA /* SaveCatastro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SaveCatastro.xcdatamodel; sourceTree = "<group>"; };
+		232AA18B213882BD007F93AA /* catastrarDataAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catastrarDataAccess.swift; sourceTree = "<group>"; };
+		2356745B212E0B760007AF13 /* Catastrar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Catastrar.storyboard; sourceTree = "<group>"; };
+		238A6C392163F28D00037C68 /* Dashboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
+		239A77A7213DC35900521069 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		239A77A9213F328C00521069 /* autorizacionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = autorizacionService.swift; sourceTree = "<group>"; };
+		23ABA974212F48BC00807246 /* CatastrarRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatastrarRoute.swift; sourceTree = "<group>"; };
 		2E707058E741C48522D77D18 /* Pods_SwiftBaseProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftBaseProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A3B7D30CFACE34BE301BBF2 /* Pods-SwiftBaseProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBaseProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBaseProjectTests/Pods-SwiftBaseProjectTests.release.xcconfig"; sourceTree = "<group>"; };
-		4C952A8E6EEEC6909A587B3B /* Pods-SwiftBaseProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBaseProjectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBaseProjectUITests/Pods-SwiftBaseProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
-		63DE044007F426C7068DB8BC /* Pods-SwiftBaseProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBaseProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBaseProjectTests/Pods-SwiftBaseProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2EBC4990BB6B9557ED1CFDCE /* Pods-SwiftBaseProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBaseProjectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBaseProjectUITests/Pods-SwiftBaseProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F08306E7C6A1B12422EEEF6 /* Pods-SwiftBaseProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBaseProjectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBaseProjectUITests/Pods-SwiftBaseProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
 		97139D08207654FB007B1C65 /* NibInstantiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibInstantiable.swift; sourceTree = "<group>"; };
 		97139D0A20765A0D007B1C65 /* UIView+ConstraintsHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ConstraintsHelpers.swift"; sourceTree = "<group>"; };
-		97B83C5B2056E73C0096B10A /* TargetType+BaseProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TargetType+BaseProject.swift"; sourceTree = "<group>"; };
+		97B83C5B2056E73C0096B10A /* TargetType+DocProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TargetType+DocProject.swift"; sourceTree = "<group>"; };
 		97B83C5F2056EA8D0096B10A /* BaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseManager.swift; sourceTree = "<group>"; };
 		97B83C622056EC3B0096B10A /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
 		97B83C642056F9F60096B10A /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
-		97B83C662056FDBE0096B10A /* Dashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
 		97B83C682056FDE20096B10A /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		97C614292056D7A3001FEE20 /* SwiftBaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97C6142C2056D7A3001FEE20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -88,15 +114,13 @@
 		97E5397B20751D2800D95BDA /* DashBoardRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardRoute.swift; sourceTree = "<group>"; };
 		97E7D317205AA993009BA321 /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
 		97E7D319205AAA57009BA321 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		97E7D31B205AABE9009BA321 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		97E7D31D205AAE2E009BA321 /* UserDataAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataAccess.swift; sourceTree = "<group>"; };
-		97EBDECE205AD5C10085A836 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
 		97EBDED3205ADE360085A836 /* BaseDataAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDataAccess.swift; sourceTree = "<group>"; };
-		9C0F561147B7782F09513410 /* Pods-SwiftBaseProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBaseProjectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBaseProjectUITests/Pods-SwiftBaseProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A2AEC1BFCBECE7611C3C144A /* Pods_SwiftBaseProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftBaseProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A624CF47A9E603889CEA42BB /* Pods-SwiftBaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBaseProject/Pods-SwiftBaseProject.release.xcconfig"; sourceTree = "<group>"; };
 		A9B94875E31222427017C279 /* Pods_SwiftBaseProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftBaseProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA6DDFA450FE8259397DA81A /* Pods-SwiftBaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBaseProject/Pods-SwiftBaseProject.debug.xcconfig"; sourceTree = "<group>"; };
-		F4591A9718CDDFDBFC90B278 /* Pods-SwiftBaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBaseProject/Pods-SwiftBaseProject.release.xcconfig"; sourceTree = "<group>"; };
+		B4C540DCAA90E6E8E0B867F3 /* Pods-SwiftBaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBaseProject/Pods-SwiftBaseProject.debug.xcconfig"; sourceTree = "<group>"; };
+		EE3F8FC496CBD6D5CD6DA4FE /* Pods-SwiftBaseProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBaseProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBaseProjectTests/Pods-SwiftBaseProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,15 +151,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2356745A212E0B510007AF13 /* catastrar */ = {
+			isa = PBXGroup;
+			children = (
+				2356745B212E0B760007AF13 /* Catastrar.storyboard */,
+				232AA15B21346F55007F93AA /* CatastrarViewController.swift */,
+				232AA15D21346FD0007F93AA /* CatastrarViewModel.swift */,
+			);
+			path = catastrar;
+			sourceTree = "<group>";
+		};
 		619EFAD79D507748E5550E80 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CA6DDFA450FE8259397DA81A /* Pods-SwiftBaseProject.debug.xcconfig */,
-				F4591A9718CDDFDBFC90B278 /* Pods-SwiftBaseProject.release.xcconfig */,
-				63DE044007F426C7068DB8BC /* Pods-SwiftBaseProjectTests.debug.xcconfig */,
-				3A3B7D30CFACE34BE301BBF2 /* Pods-SwiftBaseProjectTests.release.xcconfig */,
-				9C0F561147B7782F09513410 /* Pods-SwiftBaseProjectUITests.debug.xcconfig */,
-				4C952A8E6EEEC6909A587B3B /* Pods-SwiftBaseProjectUITests.release.xcconfig */,
+				B4C540DCAA90E6E8E0B867F3 /* Pods-SwiftBaseProject.debug.xcconfig */,
+				A624CF47A9E603889CEA42BB /* Pods-SwiftBaseProject.release.xcconfig */,
+				EE3F8FC496CBD6D5CD6DA4FE /* Pods-SwiftBaseProjectTests.debug.xcconfig */,
+				07B24E12B9212AB7AEDF9903 /* Pods-SwiftBaseProjectTests.release.xcconfig */,
+				2EBC4990BB6B9557ED1CFDCE /* Pods-SwiftBaseProjectUITests.debug.xcconfig */,
+				5F08306E7C6A1B12422EEEF6 /* Pods-SwiftBaseProjectUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -152,8 +186,12 @@
 		97B83C5A2056E7260096B10A /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				97B83C5B2056E73C0096B10A /* TargetType+BaseProject.swift */,
-				97E7D31B205AABE9009BA321 /* UserService.swift */,
+				97B83C5B2056E73C0096B10A /* TargetType+DocProject.swift */,
+				232AA16321371A9B007F93AA /* CatastrarService.swift */,
+				239A77A7213DC35900521069 /* LoginService.swift */,
+				239A77A9213F328C00521069 /* autorizacionService.swift */,
+				2325EE1E2149742A009FE1D2 /* ListadoComprobantesService.swift */,
+				232928F5214ECC1300AA7249 /* requestComprobantes.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -164,6 +202,7 @@
 				97B83C622056EC3B0096B10A /* AppRouter.swift */,
 				97E5397920751D1000D95BDA /* LoginRoute.swift */,
 				97E5397B20751D2800D95BDA /* DashBoardRoute.swift */,
+				23ABA974212F48BC00807246 /* CatastrarRoute.swift */,
 			);
 			path = Routers;
 			sourceTree = "<group>";
@@ -201,9 +240,8 @@
 				97E7D314205AA96C009BA321 /* Controllers */,
 				97B83C612056EC2C0096B10A /* Routers */,
 				97B83C5A2056E7260096B10A /* Services */,
-				97D823312056DE6000800FB1 /* Extensions */,
-				97D8232E2056DDF100800FB1 /* Helpers */,
 				97C614382056D7A3001FEE20 /* Info.plist */,
+				232AA16721372563007F93AA /* SaveCatastro.xcdatamodeld */,
 			);
 			path = SwiftBaseProject;
 			sourceTree = "<group>";
@@ -226,24 +264,11 @@
 			path = SwiftBaseProjectUITests;
 			sourceTree = "<group>";
 		};
-		97D8232E2056DDF100800FB1 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Helpers;
-			sourceTree = "<group>";
-		};
-		97D823312056DE6000800FB1 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
 		97E7D314205AA96C009BA321 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				97E7D317205AA993009BA321 /* UserController.swift */,
+				232AA1612134847D007F93AA /* CatastrarController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -252,6 +277,7 @@
 			isa = PBXGroup;
 			children = (
 				97E7D319205AAA57009BA321 /* User.swift */,
+				232AA15F2134840C007F93AA /* Catastrar.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -260,6 +286,7 @@
 			isa = PBXGroup;
 			children = (
 				97E7D31D205AAE2E009BA321 /* UserDataAccess.swift */,
+				232AA18B213882BD007F93AA /* catastrarDataAccess.swift */,
 			);
 			path = DataAccess;
 			sourceTree = "<group>";
@@ -267,6 +294,7 @@
 		97EBDECA205AD5570085A836 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2356745A212E0B510007AF13 /* catastrar */,
 				97EBDECC205AD57C0085A836 /* Dashboard */,
 				97EBDECB205AD5670085A836 /* Login */,
 			);
@@ -286,9 +314,9 @@
 		97EBDECC205AD57C0085A836 /* Dashboard */ = {
 			isa = PBXGroup;
 			children = (
+				238A6C392163F28D00037C68 /* Dashboard.storyboard */,
 				97B83C682056FDE20096B10A /* DashboardViewController.swift */,
-				97B83C662056FDBE0096B10A /* Dashboard.storyboard */,
-				97EBDECE205AD5C10085A836 /* DashboardViewModel.swift */,
+				232928F7214F021F00AA7249 /* DashboardViewModel.swift */,
 			);
 			path = Dashboard;
 			sourceTree = "<group>";
@@ -440,9 +468,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				97C614372056D7A3001FEE20 /* LaunchScreen.storyboard in Resources */,
+				238A6C3A2163F28D00037C68 /* Dashboard.storyboard in Resources */,
+				2356745C212E0B760007AF13 /* Catastrar.storyboard in Resources */,
 				97C614342056D7A3001FEE20 /* Assets.xcassets in Resources */,
 				97C614322056D7A3001FEE20 /* Main.storyboard in Resources */,
-				97B83C672056FDBE0096B10A /* Dashboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -552,8 +581,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftBaseProject/Pods-SwiftBaseProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AeroGearHttp/AeroGearHttp.framework",
+				"${BUILT_PRODUCTS_DIR}/AeroGearOAuth2/AeroGearOAuth2.framework",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/OAuthSwift/OAuthSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/OAuthSwiftAlamofire/OAuthSwiftAlamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
@@ -565,8 +598,12 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AeroGearHttp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AeroGearOAuth2.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OAuthSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OAuthSwiftAlamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
@@ -590,24 +627,35 @@
 			files = (
 				97C6142F2056D7A3001FEE20 /* LoginViewController.swift in Sources */,
 				97C6142D2056D7A3001FEE20 /* AppDelegate.swift in Sources */,
+				239A77A8213DC35900521069 /* LoginService.swift in Sources */,
 				97E7D318205AA993009BA321 /* UserController.swift in Sources */,
-				97B83C5C2056E73C0096B10A /* TargetType+BaseProject.swift in Sources */,
+				97B83C5C2056E73C0096B10A /* TargetType+DocProject.swift in Sources */,
+				232AA15C21346F55007F93AA /* CatastrarViewController.swift in Sources */,
+				232AA18C213882BD007F93AA /* catastrarDataAccess.swift in Sources */,
+				232928F8214F021F00AA7249 /* DashboardViewModel.swift in Sources */,
 				97E53978207510B100D95BDA /* Routing.swift in Sources */,
 				97B83C632056EC3B0096B10A /* AppRouter.swift in Sources */,
 				97139D09207654FB007B1C65 /* NibInstantiable.swift in Sources */,
-				97EBDECF205AD5C10085A836 /* DashboardViewModel.swift in Sources */,
+				232928F6214ECC1300AA7249 /* requestComprobantes.swift in Sources */,
+				232AA16921372563007F93AA /* SaveCatastro.xcdatamodeld in Sources */,
 				97EBDED4205ADE360085A836 /* BaseDataAccess.swift in Sources */,
+				239A77AA213F328C00521069 /* autorizacionService.swift in Sources */,
 				97E5397C20751D2800D95BDA /* DashBoardRoute.swift in Sources */,
-				97E7D31C205AABE9009BA321 /* UserService.swift in Sources */,
+				232AA1622134847D007F93AA /* CatastrarController.swift in Sources */,
 				97D8232D2056DC7B00800FB1 /* R.generated.swift in Sources */,
 				97B83C602056EA8D0096B10A /* BaseManager.swift in Sources */,
+				232AA16421371A9B007F93AA /* CatastrarService.swift in Sources */,
 				97E7D31A205AAA57009BA321 /* User.swift in Sources */,
 				97B83C692056FDE20096B10A /* DashboardViewController.swift in Sources */,
+				232AA15E21346FD0007F93AA /* CatastrarViewModel.swift in Sources */,
+				23ABA975212F48BC00807246 /* CatastrarRoute.swift in Sources */,
 				97D823302056DE0100800FB1 /* Constants.swift in Sources */,
 				97E7D31E205AAE2E009BA321 /* UserDataAccess.swift in Sources */,
 				97139D0B20765A0D007B1C65 /* UIView+ConstraintsHelpers.swift in Sources */,
 				97B83C652056F9F60096B10A /* LoginViewModel.swift in Sources */,
 				97E5397A20751D1000D95BDA /* LoginRoute.swift in Sources */,
+				232AA1602134840C007F93AA /* Catastrar.swift in Sources */,
+				2325EE1F2149742A009FE1D2 /* ListadoComprobantesService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -777,14 +825,15 @@
 		};
 		97C614522056D7A4001FEE20 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA6DDFA450FE8259397DA81A /* Pods-SwiftBaseProject.debug.xcconfig */;
+			baseConfigurationReference = B4C540DCAA90E6E8E0B867F3 /* Pods-SwiftBaseProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3VXT33L5S5;
 				INFOPLIST_FILE = SwiftBaseProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "\"-D\" \"COCOAPODS\" \"-D\" \"DEBUG\" \"-D\" \"STAGING\"";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mcousillas.SwiftBaseProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Documenta.SwiftDocProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -793,14 +842,15 @@
 		};
 		97C614532056D7A4001FEE20 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4591A9718CDDFDBFC90B278 /* Pods-SwiftBaseProject.release.xcconfig */;
+			baseConfigurationReference = A624CF47A9E603889CEA42BB /* Pods-SwiftBaseProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3VXT33L5S5;
 				INFOPLIST_FILE = SwiftBaseProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "\"-D\" \"COCOAPODS\" \"-D\" \"RELEASE\" \"-D\" \"STAGING\"";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mcousillas.SwiftBaseProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Documenta.SwiftDocProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -809,11 +859,12 @@
 		};
 		97C614552056D7A4001FEE20 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63DE044007F426C7068DB8BC /* Pods-SwiftBaseProjectTests.debug.xcconfig */;
+			baseConfigurationReference = EE3F8FC496CBD6D5CD6DA4FE /* Pods-SwiftBaseProjectTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3VXT33L5S5;
 				INFOPLIST_FILE = SwiftBaseProjectTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mcousillas.SwiftBaseProjectTests;
@@ -826,11 +877,12 @@
 		};
 		97C614562056D7A4001FEE20 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A3B7D30CFACE34BE301BBF2 /* Pods-SwiftBaseProjectTests.release.xcconfig */;
+			baseConfigurationReference = 07B24E12B9212AB7AEDF9903 /* Pods-SwiftBaseProjectTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3VXT33L5S5;
 				INFOPLIST_FILE = SwiftBaseProjectTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mcousillas.SwiftBaseProjectTests;
@@ -843,10 +895,11 @@
 		};
 		97C614582056D7A4001FEE20 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C0F561147B7782F09513410 /* Pods-SwiftBaseProjectUITests.debug.xcconfig */;
+			baseConfigurationReference = 2EBC4990BB6B9557ED1CFDCE /* Pods-SwiftBaseProjectUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3VXT33L5S5;
 				INFOPLIST_FILE = SwiftBaseProjectUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mcousillas.SwiftBaseProjectUITests;
@@ -859,10 +912,11 @@
 		};
 		97C614592056D7A4001FEE20 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C952A8E6EEEC6909A587B3B /* Pods-SwiftBaseProjectUITests.release.xcconfig */;
+			baseConfigurationReference = 5F08306E7C6A1B12422EEEF6 /* Pods-SwiftBaseProjectUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3VXT33L5S5;
 				INFOPLIST_FILE = SwiftBaseProjectUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mcousillas.SwiftBaseProjectUITests;
@@ -913,6 +967,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		232AA16721372563007F93AA /* SaveCatastro.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				232AA16821372563007F93AA /* SaveCatastro.xcdatamodel */,
+			);
+			currentVersion = 232AA16821372563007F93AA /* SaveCatastro.xcdatamodel */;
+			path = SaveCatastro.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 97C614212056D7A3001FEE20 /* Project object */;
 }

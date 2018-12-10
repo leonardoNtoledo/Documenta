@@ -7,10 +7,11 @@
 //
 
 import UIKit
+import CoreData
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-  static let usernameKey = "com.base.project.username"
+  //static let usernameKey = "com.base.project.username"
   var window: UIWindow?
 
   func application(
@@ -23,12 +24,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     window?.makeKeyAndVisible()
     return true
   }
-
-  static func getUserNameFromDefaults() -> String? {
-    return UserDefaults.standard.string(forKey: AppDelegate.usernameKey)
-  }
-
-  static func saveUserNameOnDefaults(username: String) {
-    UserDefaults.standard.set(username, forKey: usernameKey)
-  }
+   
+//  static func getUserNameFromDefaults() -> String? {
+//    return UserDefaults.standard.string(forKey: AppDelegate.name)
+//  }
+//
+//  static func saveUserNameOnDefaults(name: String) {
+//    UserDefaults.standard.set(name, forKey: name)
+//  }
 }
